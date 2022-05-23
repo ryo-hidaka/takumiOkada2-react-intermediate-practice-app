@@ -5,7 +5,6 @@ import { useHistory } from "react-router-dom";
 
 import { MenuIconButton } from "../../../components/atoms/button/MenuIconButton";
 import { MenuDrawers } from "../../../components/molecules/MenuDrawers";
-import { UserManagement } from "../../pages/UserManagement";
 
 export const Header: VFC = memo(() => {
   const { isOpen, onOpen, onClose } = useDisclosure();
