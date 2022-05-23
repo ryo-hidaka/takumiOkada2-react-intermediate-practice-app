@@ -27,7 +27,7 @@ export const UserCard: VFC<Props> = memo((prpos) => {
           alt={userName}
           m="auto"
         />
-        <Text dontSize="lg" fontWeight="bold">
+        <Text fontSize="lg" fontWeight="bold">
           {userName}
         </Text>
         <Text fontSize="sm" color="gray">
