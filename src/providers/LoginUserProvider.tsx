@@ -10,7 +10,7 @@ import { User } from "../types/user";
 type LoginUser = User & { isAdmin: boolean };
 
 export type LoginUserContextType = {
-  loginUser: (User & { isAdmin: boolean }) | null;
+  loginUser: LoginUser | null;
   setLoginUser: Dispatch<SetStateAction<LoginUser | null>>;
 };
 
