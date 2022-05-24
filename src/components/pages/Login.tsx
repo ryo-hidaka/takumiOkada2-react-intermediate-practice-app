@@ -25,7 +25,7 @@ export const Login: VFC = memo(() => {
           />
           <PrimaryButton
             disabled={userId === ""}
-            loading={loading}
+            isLoading={loading}
             onClick={onClickLogin}
           >
             ログイン
